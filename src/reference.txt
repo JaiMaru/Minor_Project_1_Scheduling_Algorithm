@@ -1,0 +1,66 @@
+Abbr -
+
+P - Process
+AT = Arrival Time
+BT = Burst Time
+TAT = Turn Around Time
+WT = Waiting Time
+RT = Response Time
+ST = Starting Time
+
+NPE - Non Pre-emptive
+PE - Pre-emptive
+
+
+Input - 
+
+P : AT : BT
+0 :    :
+1 :    :
+2 :    :
+3 :    :
+
+
+Intermediate -
+
+Current Process : 
+
+P : Remain BT    
+0 :
+1 :
+2 :
+3 :
+
+Gnatt Chart - 
+
+
+Output -
+
+P : AT : BT : CT : TAT : WT : RT
+0 :    :    :    :     :    :
+1 :    :    :    :     :    :
+2 :    :    :    :     :    :
+3 :    :    :    :     :    :
+
+
+Formulae - 
+Gnatt
+CT and ST are calculated by chart
+TAT = CT - AT
+WT = TAT - BT
+RT = ST - AT
+
+
+CPU States -
+
+Idle
+Process
+
+Algorithms -
+
+First Come First Served (FCFS) Scheduling (Non Preemptive)
+Shortest Job First (SJF) Scheduling (Non Preemptive)
+Shortest Remaining Time (SRT) Scheduling (Preemptive)
+Priority Scheduling (Non Preemptive)
+Round Robin(RR) Scheduling (Preemptive)
+Multiple-Level Queues Scheduling

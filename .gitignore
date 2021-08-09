@@ -1,0 +1,3 @@
+# Removing Execution Files
+*.exe
+*.o
